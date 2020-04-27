@@ -1,0 +1,7 @@
+Canvas_Target: 怪物上的準星
+CanvasPanel: 左上角角色資訊(Panel) + boss血條,名稱(Panel)
+Panel_BossInfo: boss血條,名稱
+Panel_FrameHp: 左上角角色資訊(框框+hp+sp)
+ScrollView_MessageBoard: 留言板 (還沒掛載 瀏覽模式沒有復活)
+Txt_Message: 留言板用的一條留言
+Txt_BulletScreen: 一條發射用的彈幕 (還沒掛載)

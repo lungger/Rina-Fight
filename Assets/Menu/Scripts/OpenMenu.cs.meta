@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 92ccc3ca88894734b81b8f42a23acdf0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Menu: {fileID: 218632913462152650, guid: 35352769fcf9d254b9bf7864b918d22c, type: 3}
+  - joyInput: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

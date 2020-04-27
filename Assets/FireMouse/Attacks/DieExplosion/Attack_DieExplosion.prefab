@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7244157198384813544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7244157198384813545}
+  - component: {fileID: 7244157198384813542}
+  - component: {fileID: 1082485586671158266}
+  m_Layer: 0
+  m_Name: Attack_DieExplosion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7244157198384813545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244157198384813544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.35533333, z: -0.15999858}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &7244157198384813542
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244157198384813544}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 7
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1082485586671158266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244157198384813544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a75e75b7e7a23949aebb5ce002bbb0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Master: {fileID: 7244157198384813544}
+  attackRigidbody: {fileID: 0}
+  attackCollider: {fileID: 7244157198384813542}
+  trackTarget: {fileID: 0}
+  attackTags: []
+  Power: 50
+  HitDelayCount: 0
+  HitContinueTime: 2
+  FlyPower_Horizontal: 500
+  FlyPower_Vertical: 500
+  attackHitType: 1
+  maxLifeTime: 0.35
+  liveTime: 0
+  hittedTimer: 0
+  hittedDeleteTime: 1
+  startPosition: {x: 0, y: 0, z: 0}
+  hitPosition: {x: 0, y: 0, z: 0}
+  hitSound: {fileID: 0}
+  effectPlayer: {fileID: 0}
+  Sounds: {fileID: 0}
+  hittedTargets: []

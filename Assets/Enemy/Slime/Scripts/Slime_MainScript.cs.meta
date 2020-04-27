@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d4e8ba8e65061a54c9c644a796a4fa6b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Master: {fileID: 3260936855289257427, guid: c8e33556a8d22f843a7a70387db7953e,
+      type: 3}
+  - animator: {instanceID: 0}
+  - characterController: {instanceID: 0}
+  - hpViewer: {instanceID: 0}
+  - AttackTarget: {instanceID: 0}
+  - iconSprite: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

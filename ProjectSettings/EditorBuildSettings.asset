@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleView.unity
+    guid: b141e81b6ff58ff419e3237827afdbb9
+  - enabled: 1
+    path: Assets/Scenes/LoadingScene/LoadingScene.unity
+    guid: 9b382c7ea42efd44ea0cabb930c0637f
+  - enabled: 1
+    path: Assets/Scenes/BattleScene/terrainBuild.unity
+    guid: dd2227bb222c8c446907fb08d126c043
+  - enabled: 1
+    path: Assets/Scenes/VictoryScene/VictoryScene.unity
+    guid: 23c049f8a67385444a8bf31c21d005b5
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 86eae179b1d12664c8d5cc847b0cb728,
+      type: 2}

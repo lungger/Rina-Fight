@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 156f314d5a2332c46b4c2709548be14b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Slime: {fileID: 2352466618183173153, guid: 7cdc82ce21df16d45be47e5835ae4464, type: 3}
+  - FireMouse: {fileID: 3794587500099357072, guid: 33c0c563bd7c48a41b8e4b8df0c63bb8,
+      type: 3}
+  - PeralCrocodile: {fileID: 8354881235476765310, guid: da7ca559d36dff744b50b4467b8f7ace,
+      type: 3}
+  - JinTongTree: {fileID: 567369906558482084, guid: 2c12858d4a1a60448b445341df679f43,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

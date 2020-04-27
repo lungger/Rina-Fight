@@ -1,0 +1,9 @@
+非鎖定狀態: (Rina距離鱷魚遠時)
+idle > attack > idle > attack
+(距離鱷魚近時)
+run (遠離Rina, 跑3秒還5秒) > attack > idle or run (看距離)> attack
+
+鎖定狀態: (距離鱷魚遠時)
+walk > attack > walk > attack (甩槍)
+(距離鱷魚近時)
+run (遠離Rina, 跑3秒還5秒) > attack > walk or run (看距離)> attack

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3770092860870994255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3770092860870994258}
+  - component: {fileID: 3770092860870994253}
+  - component: {fileID: 3770092860870994252}
+  m_Layer: 0
+  m_Name: EffectPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &3770092860870994258
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3770092860870994255}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3770092860870994253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3770092860870994255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00af9d5cbd190da46bb0642f74250379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3770092860870994252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3770092860870994255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c95d027f9c496dc4ea92073e4e02f6c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoomPrefab: {fileID: 7953232328308050153, guid: 7e6fb695dc060cf44b179c6b3e244fe0,
+    type: 3}
+  Boom2Prefab: {fileID: 3106473268716239849, guid: 36398e185e3788b438fa131f5b2415b4,
+    type: 3}
+  JumpPrefab: {fileID: 4421395563256483138, guid: 245f7f60f7b41304f96ff5150c40c92f,
+    type: 3}
+  DoubleJumpPrefab: {fileID: 8208401323999058269, guid: 78f36cf6105614a4f9387aa4cedf3f21,
+    type: 3}
+  TornadoPrefab: {fileID: 8877559743999490125, guid: 324697187a644a940aaa1f8d992dfffc,
+    type: 3}
+  WeaponTrailPrefab: {fileID: 4492730913318972472, guid: 007d8ae4aa035b945acbacae20974d56,
+    type: 3}
+  HitPrefab: {fileID: 7800016591230655322, guid: 00a8619cef7b0d94fbd1f59a5c01725c,
+    type: 3}
+  Hit2Prefab: {fileID: 6042319179888614118, guid: 57d7fd5f036e69748a4bd4b46c8fcc46,
+    type: 3}
+  GunshotPrefab: {fileID: 1541053360456751917, guid: f2a75ffb0e97ce4448b902a343ccfe8c,
+    type: 3}
+  RinaFlashPrefab: {fileID: 2672571806679334136, guid: b8716be6970bdc54aa83af7480a0bc45,
+    type: 3}
+  RinaNormalAttackPrefab: {fileID: 5572105086882562515, guid: 97b8b95967312f148966c3403712fc04,
+    type: 3}
+  RinaNormalAttackHitPrefab: {fileID: 436204587336372166, guid: e49f1197f7d72844c8b84683ff1e571e,
+    type: 3}
+  FireMouseDieExplosionPrefab: {fileID: 2480606267419473882, guid: e566e67a24912d8489244a572eba05ae,
+    type: 3}
+  FireMouseDieExplosionChargePrefab: {fileID: 1961148298234491410, guid: 836d78ebd096fc84dab347cc22c0b3ac,
+    type: 3}
+  MobDeathSmokePrefab: {fileID: 4540470368445625045, guid: a7a93e0ca974273448b1eb44fb2259e5,
+    type: 3}
